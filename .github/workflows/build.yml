@@ -16,7 +16,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        target: [JD-RE-SP-01B]
+        target: [JDCLOUD-RE-SP-01B]
         toolchain: [mipsel-linux-musl]
 
     steps:
